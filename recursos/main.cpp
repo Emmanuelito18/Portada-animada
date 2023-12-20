@@ -1,10 +1,21 @@
 #include <iostream>
-
-/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+#include <windows.h> //para las funciones sleep y coord
 
 using namespace std;
 
+void gotoxy(int,int );
+void setColor(int);
+
 int main(int argc, char** argv) {
-	cout<<"Hola mundo"<<endl;
+	cout<<"Hola mundo estoy probando esto UnU"<<endl;
+	system("pause");
 	return 0;
+}
+
+void gotoxy(int x,int y){
+	
+}
+
+void setColor(int color){
+	
 }
