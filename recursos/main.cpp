@@ -5,9 +5,11 @@ using namespace std;
 
 void gotoxy(int,int );
 void setColor(int);
+void ocultarCursor();
+void portada();
 
 int main(int argc, char** argv) {
-	cout<<"Hola mundo estoy probando esto UnU"<<endl;
+	portada();
 	system("pause");
 	return 0;
 }
@@ -20,5 +22,12 @@ void gotoxy(int x,int y){
 }
 
 void setColor(int color){
-	setConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE),color);
+	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE),color);
 }
+
+void ocultarCursor(){
+	CONSOLE_CURSOR_INFO cci={100,FALSE};
+	
+	SetConsoleCursorInfo(GetStdHandle(STD_OUTPUT_HANDLE),&cci);
+}
+
