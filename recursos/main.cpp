@@ -31,3 +31,13 @@ void ocultarCursor(){
 	SetConsoleCursorInfo(GetStdHandle(STD_OUTPUT_HANDLE),&cci);
 }
 
+void portada(){
+	system("cls");
+	setColor(31);
+	cout<<"Hola mundo estoy probando el color de la consola"<<endl;
+	cout<<"prueba de texto"<<endl;
+	/*for(int i=0;i<=100;i++){
+		setColor(i);
+		cout<<"Color de consola: "<<i<<endl;
+	}*/
+}
