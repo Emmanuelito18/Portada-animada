@@ -4,15 +4,14 @@
 using namespace std;
 
 void gotoxy(int,int );
-void setColor(int);
 void ocultarCursor();
 void portada();
 void animacion();
 
 int main(int argc, char** argv) {
-	system("color 1f");
-	portada();
-	system("color");
+	system("color 1f");//cambia el color de la consola a fondo azul y texto blanco
+	portada();//llama a la función portada
+	system("color");//pone el color de la consola al establecido por defecto configurado
 	system("pause");
 	return 0;
 }
@@ -21,30 +20,26 @@ void gotoxy(int x,int y){
 	COORD coord;
 	coord.X=x;
 	coord.Y=y;
-	SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE),coord);
-}
-
-void setColor(int color){
-	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE),color);
+	SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE),coord);//modifica la ubicacion del cursor de la consola
 }
 
 void ocultarCursor(){
 	CONSOLE_CURSOR_INFO cci={100,FALSE};
 	
-	SetConsoleCursorInfo(GetStdHandle(STD_OUTPUT_HANDLE),&cci);
+	SetConsoleCursorInfo(GetStdHandle(STD_OUTPUT_HANDLE),&cci);//oculta el cursor de la consola
 }
 
 void portada(){
-	ocultarCursor();
-	system("cls");
-	animacion();
-	gotoxy(0,15);
+	ocultarCursor();//llama a la función ocultaCursor
+	animacion();//llama a la función para comenzar la animación
+	gotoxy(0,15);//cambia la posición del cursor para mostrar texto final de la portada
+	
 }
 
 void animacion(){//cada parte de la animacion se hace imprimiendo partes de las letras mediante la función gotoxy
 	gotoxy(25,2);
 	cout<<"Este programa ha sido creado por:"<<endl;
-	//E
+	//crea la letra E
 	//linea 1
 	gotoxy(9,4);
 	cout<<(char)219;
@@ -117,7 +112,7 @@ void animacion(){//cada parte de la animacion se hace imprimiendo partes de las 
 	gotoxy(13,12);
 	cout<<(char)178;
 	Sleep(50);
-	//M
+	//crea la letra M
 	//linea 1
 	gotoxy(14,4);
 	cout<<(char)219;
@@ -218,7 +213,7 @@ void animacion(){//cada parte de la animacion se hace imprimiendo partes de las 
 	gotoxy(19,12);
 	cout<<(char)178;
 	Sleep(50);
-	//M
+	//crea la letra M
 	//linea 1
 	gotoxy(20,4);
 	cout<<(char)219;
@@ -319,7 +314,7 @@ void animacion(){//cada parte de la animacion se hace imprimiendo partes de las 
 	gotoxy(25,12);
 	cout<<(char)178;
 	Sleep(50);
-	//A
+	//crea la letra A
 	//linea 1
 	gotoxy(26,6);
 	cout<<(char)219;
@@ -402,7 +397,7 @@ void animacion(){//cada parte de la animacion se hace imprimiendo partes de las 
 	gotoxy(30,12);
 	cout<<(char)178;
 	Sleep(50);
-	//N
+	//crea la letra N
 	//linea 1
 	gotoxy(31,4);
 	cout<<(char)219;
@@ -492,7 +487,7 @@ void animacion(){//cada parte de la animacion se hace imprimiendo partes de las 
 	gotoxy(35,12);
 	cout<<(char)178;
 	Sleep(50);
-	//U
+	//crea la letra U
 	//linea 1
 	gotoxy(36,4);
 	cout<<(char)219;
@@ -573,7 +568,7 @@ void animacion(){//cada parte de la animacion se hace imprimiendo partes de las 
 	gotoxy(40,10);
 	cout<<(char)178;
 	Sleep(50);
-	//E
+	//crea la letra E
 	//linea 1
 	gotoxy(41,4);
 	cout<<(char)219;
@@ -646,7 +641,7 @@ void animacion(){//cada parte de la animacion se hace imprimiendo partes de las 
 	gotoxy(45,12);
 	cout<<(char)178;
 	Sleep(50);
-	//L
+	//crea la letra L
 	//linea 1
 	gotoxy(46,4);
 	cout<<(char)219;
@@ -699,7 +694,7 @@ void animacion(){//cada parte de la animacion se hace imprimiendo partes de las 
 	gotoxy(50,12);
 	cout<<(char)178;
 	Sleep(50);
-	//I
+	//crea la letra I
 	//linea 1
 	gotoxy(51,4);
 	cout<<(char)219;
@@ -740,7 +735,7 @@ void animacion(){//cada parte de la animacion se hace imprimiendo partes de las 
 	gotoxy(52,12);
 	cout<<(char)178;
 	Sleep(50);
-	//T
+	//crea la letra T
 	//linea 1
 	gotoxy(53,4);
 	cout<<(char)219;
@@ -805,7 +800,7 @@ void animacion(){//cada parte de la animacion se hace imprimiendo partes de las 
 	gotoxy(58,5);
 	cout<<(char)178;
 	Sleep(50);
-	//O
+	//crea la letra O
 	//linea 1
 	gotoxy(59,6);
 	cout<<(char)219;
@@ -884,7 +879,7 @@ void animacion(){//cada parte de la animacion se hace imprimiendo partes de las 
 	gotoxy(63,11);
 	cout<<(char)178;
 	Sleep(50);
-	//1
+	//crea el número 1
 	//linea 1
 	gotoxy(64,5);
 	cout<<(char)219;
@@ -938,7 +933,7 @@ void animacion(){//cada parte de la animacion se hace imprimiendo partes de las 
 	//linea 4
 	gotoxy(67,12);
 	cout<<(char)178;
-	//8
+	//crea el número 8
 	//linea 1
 	gotoxy(68,6);
 	cout<<(char)219;
@@ -1014,6 +1009,6 @@ void animacion(){//cada parte de la animacion se hace imprimiendo partes de las 
 	cout<<(char)178;
 	gotoxy(72,10);
 	cout<<(char)178;
-	Beep(1500,700);
+	Beep(1500,700);//emite un pitido
 	Sleep(50);
 }
