@@ -27,8 +27,8 @@ CommandLine=
 Folders=
 IncludeVersionInfo=1
 SupportXPThemes=0
-CompilerSet=1
-CompilerSettings=0000000000000000001000000
+CompilerSet=0
+CompilerSettings=00000000a0000000000000000
 UnitCount=2
 
 [VersionInfo]

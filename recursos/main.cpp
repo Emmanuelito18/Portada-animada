@@ -45,335 +45,14 @@ void portada(){
 }
 
 void animacion(){//cada parte de la animacion se hace imprimiendo partes de las letras mediante la función irA
-	irA(25,2);
+	irA(45,2);
 	cout<<"Este programa ha sido creado por:"<<endl;
 	//crea la letra E
 	//linea 1
-	irA(9,4);
-	cout<<(char)219;
-	irA(9,5);
-	cout<<(char)219;
-	irA(9,6);
-	cout<<(char)219;
-	irA(9,7);
-	cout<<(char)219;
-	irA(9,8);
-	cout<<(char)219;
-	irA(9,9);
-	cout<<(char)219;
-	irA(9,10);
-	cout<<(char)219;
-	irA(9,11);
-	cout<<(char)219;
-	irA(9,12);
-	cout<<(char)219;
-	Sleep(50);
-	//linea 2
-	irA(10,4);
-	cout<<(char)219;
-	irA(10,5);
-	cout<<(char)178;
-	irA(10,6);
-	cout<<(char)178;
-	irA(10,7);
-	cout<<(char)178;
-	irA(10,8);
-	cout<<(char)219;
-	irA(10,9);
-	cout<<(char)178;
-	irA(10,10);
-	cout<<(char)178;
-	irA(10,11);
-	cout<<(char)178;
-	irA(10,12);
-	cout<<(char)219;
-	Sleep(50);
-	//linea 3
-	irA(11,4);
-	cout<<(char)219;
-	irA(11,5);
-	cout<<(char)178;
-	irA(11,8);
-	cout<<(char)219;
-	irA(11,9);
-	cout<<(char)178;
-	irA(11,12);
-	cout<<(char)219;
-	Sleep(50);
-	//linea 4
-	irA(12,4);
-	cout<<(char)219;
-	irA(12,5);
-	cout<<(char)178;
-	irA(12,8);
-	cout<<(char)178;
-	irA(12,9);
-	cout<<(char)178;
-	irA(12,12);
-	cout<<(char)219;
-	Sleep(50);
-	//linea 5
-	irA(13,4);
-	cout<<(char)178;
-	irA(13,5);
-	cout<<(char)178;
-	irA(13,12);
-	cout<<(char)178;
-	Sleep(50);
-	//crea la letra M
-	//linea 1
-	irA(14,4);
-	cout<<(char)219;
-	irA(14,5);
-	cout<<(char)219;
-	irA(14,6);
-	cout<<(char)219;
-	irA(14,7);
-	cout<<(char)219;
-	irA(14,8);
-	cout<<(char)219;
-	irA(14,9);
-	cout<<(char)219;
-	irA(14,10);
-	cout<<(char)219;
-	irA(14,11);
-	cout<<(char)219;
-	irA(14,12);
-	cout<<(char)219;
-	Sleep(50);
-	//linea 2
-	irA(15,4);
-	cout<<(char)178;
-	irA(15,5);
-	cout<<(char)219;
-	irA(15,6);
-	cout<<(char)219;
-	irA(15,7);
-	cout<<(char)178;
-	irA(15,8);
-	cout<<(char)178;
-	irA(15,9);
-	cout<<(char)178;
-	irA(15,10);
-	cout<<(char)178;
-	irA(15,11);
-	cout<<(char)178;
-	irA(15,12);
-	cout<<(char)178;
-	Sleep(50);
-	//linea 3
-	irA(16,5);
-	cout<<(char)178;
-	irA(16,6);
-	cout<<(char)178;
-	irA(16,7);
-	cout<<(char)219;
-	irA(16,8);
-	cout<<(char)219;
-	Sleep(50);
-	//linea 4
-	irA(17,5);
-	cout<<(char)219;
-	irA(17,6);
-	cout<<(char)219;
-	irA(17,7);
-	cout<<(char)178;
-	irA(17,8);
-	cout<<(char)178;
-	Sleep(50);
-	//linea 5
-	irA(18,4);
-	cout<<(char)219;
-	irA(18,5);
-	cout<<(char)219;
-	irA(18,6);
-	cout<<(char)219;
-	irA(18,7);
-	cout<<(char)219;
-	irA(18,8);
-	cout<<(char)219;
-	irA(18,9);
-	cout<<(char)219;
-	irA(18,10);
-	cout<<(char)219;
-	irA(18,11);
-	cout<<(char)219;
-	irA(18,12);
-	cout<<(char)219;
-	Sleep(50);
-	//linea 6
-	irA(19,4);
-	cout<<(char)178;
-	irA(19,5);
-	cout<<(char)178;
-	irA(19,6);
-	cout<<(char)178;
-	irA(19,7);
-	cout<<(char)178;
-	irA(19,8);
-	cout<<(char)178;
-	irA(19,9);
-	cout<<(char)178;
-	irA(19,10);
-	cout<<(char)178;
-	irA(19,11);
-	cout<<(char)178;
-	irA(19,12);
-	cout<<(char)178;
-	Sleep(50);
-	//crea la letra M
-	//linea 1
-	irA(20,4);
-	cout<<(char)219;
-	irA(20,5);
-	cout<<(char)219;
-	irA(20,6);
-	cout<<(char)219;
-	irA(20,7);
-	cout<<(char)219;
-	irA(20,8);
-	cout<<(char)219;
-	irA(20,9);
-	cout<<(char)219;
-	irA(20,10);
-	cout<<(char)219;
-	irA(20,11);
-	cout<<(char)219;
-	irA(20,12);
-	cout<<(char)219;
-	Sleep(50);
-	//linea 2
-	irA(21,4);
-	cout<<(char)178;
-	irA(21,5);
-	cout<<(char)219;
-	irA(21,6);
-	cout<<(char)219;
-	irA(21,7);
-	cout<<(char)178;
-	irA(21,8);
-	cout<<(char)178;
-	irA(21,9);
-	cout<<(char)178;
-	irA(21,10);
-	cout<<(char)178;
-	irA(21,11);
-	cout<<(char)178;
-	irA(21,12);
-	cout<<(char)178;
-	Sleep(50);
-	//linea 3
-	irA(22,5);
-	cout<<(char)178;
-	irA(22,6);
-	cout<<(char)178;
-	irA(22,7);
-	cout<<(char)219;
-	irA(22,8);
-	cout<<(char)219;
-	Sleep(50);
-	//linea 4
-	irA(23,5);
-	cout<<(char)219;
-	irA(23,6);
-	cout<<(char)219;
-	irA(23,7);
-	cout<<(char)178;
-	irA(23,8);
-	cout<<(char)178;
-	Sleep(50);
-	//linea 5
-	irA(24,4);
-	cout<<(char)219;
-	irA(24,5);
-	cout<<(char)219;
-	irA(24,6);
-	cout<<(char)219;
-	irA(24,7);
-	cout<<(char)219;
-	irA(24,8);
-	cout<<(char)219;
-	irA(24,9);
-	cout<<(char)219;
-	irA(24,10);
-	cout<<(char)219;
-	irA(24,11);
-	cout<<(char)219;
-	irA(24,12);
-	cout<<(char)219;
-	Sleep(50);
-	//linea 6
-	irA(25,4);
-	cout<<(char)178;
-	irA(25,5);
-	cout<<(char)178;
-	irA(25,6);
-	cout<<(char)178;
-	irA(25,7);
-	cout<<(char)178;
-	irA(25,8);
-	cout<<(char)178;
-	irA(25,9);
-	cout<<(char)178;
-	irA(25,10);
-	cout<<(char)178;
-	irA(25,11);
-	cout<<(char)178;
-	irA(25,12);
-	cout<<(char)178;
-	Sleep(50);
-	//crea la letra A
-	//linea 1
-	irA(26,6);
-	cout<<(char)219;
-	irA(26,7);
-	cout<<(char)219;
-	irA(26,8);
-	cout<<(char)219;
-	irA(26,9);
-	cout<<(char)219;
-	irA(26,10);
-	cout<<(char)219;
-	irA(26,11);
-	cout<<(char)219;
-	irA(26,12);
-	cout<<(char)219;
-	Sleep(50);
-	//linea 2
-	irA(27,4);
-	cout<<(char)219;
-	irA(27,5);
-	cout<<(char)219;
-	irA(27,6);
-	cout<<(char)178;
-	irA(27,7);
-	cout<<(char)178;
-	irA(27,8);
-	cout<<(char)219;
-	irA(27,9);
-	cout<<(char)178;
-	irA(27,10);
-	cout<<(char)178;
-	irA(27,11);
-	cout<<(char)178;
-	irA(27,12);
-	cout<<(char)178;
-	Sleep(50);
-	//linea 3
-	irA(28,4);
-	cout<<(char)219;
-	irA(28,5);
-	cout<<(char)219;
-	irA(28,8);
-	cout<<(char)219;
-	irA(28,9);
-	cout<<(char)178;
-	Sleep(50);
-	//linea 4
 	irA(29,4);
-	cout<<(char)178;
+	cout<<(char)219;
 	irA(29,5);
-	cout<<(char)178;
+	cout<<(char)219;
 	irA(29,6);
 	cout<<(char)219;
 	irA(29,7);
@@ -389,13 +68,17 @@ void animacion(){//cada parte de la animacion se hace imprimiendo partes de las 
 	irA(29,12);
 	cout<<(char)219;
 	Sleep(50);
-	//linea 5
+	//linea 2
+	irA(30,4);
+	cout<<(char)219;
+	irA(30,5);
+	cout<<(char)178;
 	irA(30,6);
 	cout<<(char)178;
 	irA(30,7);
 	cout<<(char)178;
 	irA(30,8);
-	cout<<(char)178;
+	cout<<(char)219;
 	irA(30,9);
 	cout<<(char)178;
 	irA(30,10);
@@ -403,60 +86,42 @@ void animacion(){//cada parte de la animacion se hace imprimiendo partes de las 
 	irA(30,11);
 	cout<<(char)178;
 	irA(30,12);
-	cout<<(char)178;
+	cout<<(char)219;
 	Sleep(50);
-	//crea la letra N
-	//linea 1
+	//linea 3
 	irA(31,4);
 	cout<<(char)219;
 	irA(31,5);
-	cout<<(char)219;
-	irA(31,6);
-	cout<<(char)219;
-	irA(31,7);
-	cout<<(char)219;
+	cout<<(char)178;
 	irA(31,8);
 	cout<<(char)219;
 	irA(31,9);
-	cout<<(char)219;
-	irA(31,10);
-	cout<<(char)219;
-	irA(31,11);
-	cout<<(char)219;
+	cout<<(char)178;
 	irA(31,12);
 	cout<<(char)219;
 	Sleep(50);
-	//linea 2
+	//linea 4
 	irA(32,4);
-	cout<<(char)178;
+	cout<<(char)219;
 	irA(32,5);
 	cout<<(char)178;
-	irA(32,6);
-	cout<<(char)178;
-	irA(32,7);
-	cout<<(char)219;
 	irA(32,8);
-	cout<<(char)219;
+	cout<<(char)178;
 	irA(32,9);
 	cout<<(char)178;
-	irA(32,10);
-	cout<<(char)178;
-	irA(32,11);
-	cout<<(char)178;
 	irA(32,12);
-	cout<<(char)178;
-	Sleep(50);
-	//linea 3
-	irA(33,7);
-	cout<<(char)178;
-	irA(33,8);
-	cout<<(char)178;
-	irA(33,9);
-	cout<<(char)219;
-	irA(33,10);
 	cout<<(char)219;
 	Sleep(50);
-	//linea 4
+	//linea 5
+	irA(33,4);
+	cout<<(char)178;
+	irA(33,5);
+	cout<<(char)178;
+	irA(33,12);
+	cout<<(char)178;
+	Sleep(50);
+	//crea la letra M
+	//linea 1
 	irA(34,4);
 	cout<<(char)219;
 	irA(34,5);
@@ -475,13 +140,14 @@ void animacion(){//cada parte de la animacion se hace imprimiendo partes de las 
 	cout<<(char)219;
 	irA(34,12);
 	cout<<(char)219;
-	//linea 5
+	Sleep(50);
+	//linea 2
 	irA(35,4);
 	cout<<(char)178;
 	irA(35,5);
-	cout<<(char)178;
+	cout<<(char)219;
 	irA(35,6);
-	cout<<(char)178;
+	cout<<(char)219;
 	irA(35,7);
 	cout<<(char)178;
 	irA(35,8);
@@ -495,166 +161,169 @@ void animacion(){//cada parte de la animacion se hace imprimiendo partes de las 
 	irA(35,12);
 	cout<<(char)178;
 	Sleep(50);
-	//crea la letra U
-	//linea 1
-	irA(36,4);
-	cout<<(char)219;
+	//linea 3
 	irA(36,5);
-	cout<<(char)219;
+	cout<<(char)178;
 	irA(36,6);
-	cout<<(char)219;
+	cout<<(char)178;
 	irA(36,7);
 	cout<<(char)219;
 	irA(36,8);
 	cout<<(char)219;
-	irA(36,9);
-	cout<<(char)219;
-	irA(36,10);
-	cout<<(char)219;
-	irA(36,11);
-	cout<<(char)178;
 	Sleep(50);
-	//linea 2
-	irA(37,4);
-	cout<<(char)178;
+	//linea 4
 	irA(37,5);
-	cout<<(char)178;
+	cout<<(char)219;
 	irA(37,6);
-	cout<<(char)178;
+	cout<<(char)219;
 	irA(37,7);
 	cout<<(char)178;
 	irA(37,8);
 	cout<<(char)178;
-	irA(37,9);
-	cout<<(char)178;
-	irA(37,10);
-	cout<<(char)178;
-	irA(37,11);
-	cout<<(char)219;
-	irA(37,12);
-	cout<<(char)219;
 	Sleep(50);
-	//lenea 3
+	//linea 5
+	irA(38,4);
+	cout<<(char)219;
+	irA(38,5);
+	cout<<(char)219;
+	irA(38,6);
+	cout<<(char)219;
+	irA(38,7);
+	cout<<(char)219;
+	irA(38,8);
+	cout<<(char)219;
+	irA(38,9);
+	cout<<(char)219;
+	irA(38,10);
+	cout<<(char)219;
 	irA(38,11);
 	cout<<(char)219;
 	irA(38,12);
 	cout<<(char)219;
 	Sleep(50);
-	//linea 4
+	//linea 6
 	irA(39,4);
-	cout<<(char)219;
+	cout<<(char)178;
 	irA(39,5);
-	cout<<(char)219;
+	cout<<(char)178;
 	irA(39,6);
-	cout<<(char)219;
+	cout<<(char)178;
 	irA(39,7);
-	cout<<(char)219;
+	cout<<(char)178;
 	irA(39,8);
-	cout<<(char)219;
+	cout<<(char)178;
 	irA(39,9);
-	cout<<(char)219;
+	cout<<(char)178;
 	irA(39,10);
-	cout<<(char)219;
+	cout<<(char)178;
 	irA(39,11);
 	cout<<(char)178;
 	irA(39,12);
 	cout<<(char)178;
 	Sleep(50);
-	//linea 5
-	irA(40,4);
-	cout<<(char)178;
-	irA(40,5);
-	cout<<(char)178;
-	irA(40,6);
-	cout<<(char)178;
-	irA(40,7);
-	cout<<(char)178;
-	irA(40,8);
-	cout<<(char)178;
-	irA(40,9);
-	cout<<(char)178;
-	irA(40,10);
-	cout<<(char)178;
-	Sleep(50);
-	//crea la letra E
+	//crea la letra M
 	//linea 1
-	irA(41,4);
+	irA(40,4);
 	cout<<(char)219;
+	irA(40,5);
+	cout<<(char)219;
+	irA(40,6);
+	cout<<(char)219;
+	irA(40,7);
+	cout<<(char)219;
+	irA(40,8);
+	cout<<(char)219;
+	irA(40,9);
+	cout<<(char)219;
+	irA(40,10);
+	cout<<(char)219;
+	irA(40,11);
+	cout<<(char)219;
+	irA(40,12);
+	cout<<(char)219;
+	Sleep(50);
+	//linea 2
+	irA(41,4);
+	cout<<(char)178;
 	irA(41,5);
 	cout<<(char)219;
 	irA(41,6);
 	cout<<(char)219;
 	irA(41,7);
-	cout<<(char)219;
+	cout<<(char)178;
 	irA(41,8);
-	cout<<(char)219;
+	cout<<(char)178;
 	irA(41,9);
-	cout<<(char)219;
+	cout<<(char)178;
 	irA(41,10);
-	cout<<(char)219;
+	cout<<(char)178;
 	irA(41,11);
-	cout<<(char)219;
+	cout<<(char)178;
 	irA(41,12);
-	cout<<(char)219;
+	cout<<(char)178;
 	Sleep(50);
-	//linea 2
-	irA(42,4);
-	cout<<(char)219;
+	//linea 3
 	irA(42,5);
 	cout<<(char)178;
 	irA(42,6);
 	cout<<(char)178;
 	irA(42,7);
-	cout<<(char)178;
+	cout<<(char)219;
 	irA(42,8);
-	cout<<(char)219;
-	irA(42,9);
-	cout<<(char)178;
-	irA(42,10);
-	cout<<(char)178;
-	irA(42,11);
-	cout<<(char)178;
-	irA(42,12);
-	cout<<(char)219;
-	Sleep(50);
-	//linea 3
-	irA(43,4);
-	cout<<(char)219;
-	irA(43,5);
-	cout<<(char)178;
-	irA(43,8);
-	cout<<(char)219;
-	irA(43,9);
-	cout<<(char)178;
-	irA(43,12);
 	cout<<(char)219;
 	Sleep(50);
 	//linea 4
+	irA(43,5);
+	cout<<(char)219;
+	irA(43,6);
+	cout<<(char)219;
+	irA(43,7);
+	cout<<(char)178;
+	irA(43,8);
+	cout<<(char)178;
+	Sleep(50);
+	//linea 5
 	irA(44,4);
 	cout<<(char)219;
 	irA(44,5);
-	cout<<(char)178;
+	cout<<(char)219;
+	irA(44,6);
+	cout<<(char)219;
+	irA(44,7);
+	cout<<(char)219;
 	irA(44,8);
-	cout<<(char)178;
+	cout<<(char)219;
 	irA(44,9);
-	cout<<(char)178;
+	cout<<(char)219;
+	irA(44,10);
+	cout<<(char)219;
+	irA(44,11);
+	cout<<(char)219;
 	irA(44,12);
 	cout<<(char)219;
 	Sleep(50);
-	//linea 5
+	//linea 6
 	irA(45,4);
 	cout<<(char)178;
 	irA(45,5);
 	cout<<(char)178;
+	irA(45,6);
+	cout<<(char)178;
+	irA(45,7);
+	cout<<(char)178;
+	irA(45,8);
+	cout<<(char)178;
+	irA(45,9);
+	cout<<(char)178;
+	irA(45,10);
+	cout<<(char)178;
+	irA(45,11);
+	cout<<(char)178;
 	irA(45,12);
 	cout<<(char)178;
 	Sleep(50);
-	//crea la letra L
+	//crea la letra A
 	//linea 1
-	irA(46,4);
-	cout<<(char)219;
-	irA(46,5);
-	cout<<(char)219;
 	irA(46,6);
 	cout<<(char)219;
 	irA(46,7);
@@ -670,17 +339,17 @@ void animacion(){//cada parte de la animacion se hace imprimiendo partes de las 
 	irA(46,12);
 	cout<<(char)219;
 	Sleep(50);
-	//linea2
+	//linea 2
 	irA(47,4);
-	cout<<(char)178;
+	cout<<(char)219;
 	irA(47,5);
-	cout<<(char)178;
+	cout<<(char)219;
 	irA(47,6);
 	cout<<(char)178;
 	irA(47,7);
 	cout<<(char)178;
 	irA(47,8);
-	cout<<(char)178;
+	cout<<(char)219;
 	irA(47,9);
 	cout<<(char)178;
 	irA(47,10);
@@ -688,21 +357,55 @@ void animacion(){//cada parte de la animacion se hace imprimiendo partes de las 
 	irA(47,11);
 	cout<<(char)178;
 	irA(47,12);
-	cout<<(char)219;
+	cout<<(char)178;
 	Sleep(50);
 	//linea 3
-	irA(48,12);
+	irA(48,4);
 	cout<<(char)219;
+	irA(48,5);
+	cout<<(char)219;
+	irA(48,8);
+	cout<<(char)219;
+	irA(48,9);
+	cout<<(char)178;
 	Sleep(50);
 	//linea 4
+	irA(49,4);
+	cout<<(char)178;
+	irA(49,5);
+	cout<<(char)178;
+	irA(49,6);
+	cout<<(char)219;
+	irA(49,7);
+	cout<<(char)219;
+	irA(49,8);
+	cout<<(char)219;
+	irA(49,9);
+	cout<<(char)219;
+	irA(49,10);
+	cout<<(char)219;
+	irA(49,11);
+	cout<<(char)219;
 	irA(49,12);
 	cout<<(char)219;
 	Sleep(50);
 	//linea 5
+	irA(50,6);
+	cout<<(char)178;
+	irA(50,7);
+	cout<<(char)178;
+	irA(50,8);
+	cout<<(char)178;
+	irA(50,9);
+	cout<<(char)178;
+	irA(50,10);
+	cout<<(char)178;
+	irA(50,11);
+	cout<<(char)178;
 	irA(50,12);
 	cout<<(char)178;
 	Sleep(50);
-	//crea la letra I
+	//crea la letra N
 	//linea 1
 	irA(51,4);
 	cout<<(char)219;
@@ -731,9 +434,9 @@ void animacion(){//cada parte de la animacion se hace imprimiendo partes de las 
 	irA(52,6);
 	cout<<(char)178;
 	irA(52,7);
-	cout<<(char)178;
+	cout<<(char)219;
 	irA(52,8);
-	cout<<(char)178;
+	cout<<(char)219;
 	irA(52,9);
 	cout<<(char)178;
 	irA(52,10);
@@ -743,73 +446,105 @@ void animacion(){//cada parte de la animacion se hace imprimiendo partes de las 
 	irA(52,12);
 	cout<<(char)178;
 	Sleep(50);
-	//crea la letra T
-	//linea 1
-	irA(53,4);
-	cout<<(char)219;
-	irA(53,5);
-	cout<<(char)178;
-	Sleep(50);
-	//linea 2
-	irA(54,4);
-	cout<<(char)219;
-	irA(54,5);
-	cout<<(char)178;
-	Sleep(50);
 	//linea 3
-	irA(55,4);
+	irA(53,7);
+	cout<<(char)178;
+	irA(53,8);
+	cout<<(char)178;
+	irA(53,9);
 	cout<<(char)219;
-	irA(55,5);
-	cout<<(char)219;
-	irA(55,6);
-	cout<<(char)219;
-	irA(55,7);
-	cout<<(char)219;
-	irA(55,8);
-	cout<<(char)219;
-	irA(55,9);
-	cout<<(char)219;
-	irA(55,10);
-	cout<<(char)219;
-	irA(55,11);
-	cout<<(char)219;
-	irA(55,12);
+	irA(53,10);
 	cout<<(char)219;
 	Sleep(50);
 	//linea 4
+	irA(34,4);
+	cout<<(char)219;
+	irA(54,5);
+	cout<<(char)219;
+	irA(54,6);
+	cout<<(char)219;
+	irA(54,7);
+	cout<<(char)219;
+	irA(54,8);
+	cout<<(char)219;
+	irA(54,9);
+	cout<<(char)219;
+	irA(54,10);
+	cout<<(char)219;
+	irA(54,11);
+	cout<<(char)219;
+	irA(54,12);
+	cout<<(char)219;
+	//linea 5
+	irA(55,4);
+	cout<<(char)178;
+	irA(55,5);
+	cout<<(char)178;
+	irA(55,6);
+	cout<<(char)178;
+	irA(55,7);
+	cout<<(char)178;
+	irA(55,8);
+	cout<<(char)178;
+	irA(55,9);
+	cout<<(char)178;
+	irA(55,10);
+	cout<<(char)178;
+	irA(55,11);
+	cout<<(char)178;
+	irA(55,12);
+	cout<<(char)178;
+	Sleep(50);
+	//crea la letra U
+	//linea 1
 	irA(56,4);
 	cout<<(char)219;
 	irA(56,5);
-	cout<<(char)178;
+	cout<<(char)219;
 	irA(56,6);
-	cout<<(char)178;
+	cout<<(char)219;
 	irA(56,7);
-	cout<<(char)178;
+	cout<<(char)219;
 	irA(56,8);
-	cout<<(char)178;
+	cout<<(char)219;
 	irA(56,9);
-	cout<<(char)178;
+	cout<<(char)219;
 	irA(56,10);
-	cout<<(char)178;
+	cout<<(char)219;
 	irA(56,11);
 	cout<<(char)178;
-	irA(56,12);
-	cout<<(char)178;
 	Sleep(50);
-	//linea 5
+	//linea 2
 	irA(57,4);
-	cout<<(char)219;
+	cout<<(char)178;
 	irA(57,5);
 	cout<<(char)178;
-	Sleep(50);
-	//linea 6
-	irA(58,4);
+	irA(57,6);
 	cout<<(char)178;
-	irA(58,5);
+	irA(57,7);
 	cout<<(char)178;
+	irA(57,8);
+	cout<<(char)178;
+	irA(57,9);
+	cout<<(char)178;
+	irA(57,10);
+	cout<<(char)178;
+	irA(57,11);
+	cout<<(char)219;
+	irA(57,12);
+	cout<<(char)219;
 	Sleep(50);
-	//crea la letra O
-	//linea 1
+	//lenea 3
+	irA(58,11);
+	cout<<(char)219;
+	irA(58,12);
+	cout<<(char)219;
+	Sleep(50);
+	//linea 4
+	irA(59,4);
+	cout<<(char)219;
+	irA(59,5);
+	cout<<(char)219;
 	irA(59,6);
 	cout<<(char)219;
 	irA(59,7);
@@ -822,12 +557,14 @@ void animacion(){//cada parte de la animacion se hace imprimiendo partes de las 
 	cout<<(char)219;
 	irA(59,11);
 	cout<<(char)178;
+	irA(59,12);
+	cout<<(char)178;
 	Sleep(50);
-	//linea 2
+	//linea 5
 	irA(60,4);
-	cout<<(char)219;
+	cout<<(char)178;
 	irA(60,5);
-	cout<<(char)219;
+	cout<<(char)178;
 	irA(60,6);
 	cout<<(char)178;
 	irA(60,7);
@@ -838,184 +575,447 @@ void animacion(){//cada parte de la animacion se hace imprimiendo partes de las 
 	cout<<(char)178;
 	irA(60,10);
 	cout<<(char)178;
-	irA(60,11);
-	cout<<(char)219;
-	irA(60,12);
-	cout<<(char)219;
 	Sleep(50);
-	//linea 3
+	//crea la letra E
+	//linea 1
 	irA(61,4);
 	cout<<(char)219;
 	irA(61,5);
+	cout<<(char)219;
+	irA(61,6);
+	cout<<(char)219;
+	irA(61,7);
+	cout<<(char)219;
+	irA(61,8);
+	cout<<(char)219;
+	irA(61,9);
+	cout<<(char)219;
+	irA(61,10);
 	cout<<(char)219;
 	irA(61,11);
 	cout<<(char)219;
 	irA(61,12);
 	cout<<(char)219;
 	Sleep(50);
-	//linea 4
+	//linea 2
 	irA(62,4);
-	cout<<(char)178;
+	cout<<(char)219;
 	irA(62,5);
 	cout<<(char)178;
 	irA(62,6);
-	cout<<(char)219;
+	cout<<(char)178;
 	irA(62,7);
-	cout<<(char)219;
+	cout<<(char)178;
 	irA(62,8);
 	cout<<(char)219;
 	irA(62,9);
-	cout<<(char)219;
+	cout<<(char)178;
 	irA(62,10);
-	cout<<(char)219;
+	cout<<(char)178;
 	irA(62,11);
 	cout<<(char)178;
 	irA(62,12);
-	cout<<(char)178;
+	cout<<(char)219;
 	Sleep(50);
-	//linea 5
-	irA(63,6);
-	cout<<(char)178;
-	irA(63,7);
+	//linea 3
+	irA(63,4);
+	cout<<(char)219;
+	irA(63,5);
 	cout<<(char)178;
 	irA(63,8);
-	cout<<(char)178;
+	cout<<(char)219;
 	irA(63,9);
 	cout<<(char)178;
-	irA(63,10);
-	cout<<(char)178;
-	irA(63,11);
-	cout<<(char)178;
+	irA(63,12);
+	cout<<(char)219;
 	Sleep(50);
-	//crea el número 1
-	//linea 1
+	//linea 4
+	irA(64,4);
+	cout<<(char)219;
 	irA(64,5);
-	cout<<(char)219;
-	irA(64,6);
-	cout<<(char)219;
-	irA(64,7);
+	cout<<(char)178;
+	irA(64,8);
+	cout<<(char)178;
+	irA(64,9);
 	cout<<(char)178;
 	irA(64,12);
 	cout<<(char)219;
 	Sleep(50);
-	//linea 2
+	//linea 5
 	irA(65,4);
-	cout<<(char)219;
+	cout<<(char)178;
 	irA(65,5);
-	cout<<(char)219;
-	irA(65,6);
-	cout<<(char)219;
-	irA(65,7);
-	cout<<(char)219;
-	irA(65,8);
-	cout<<(char)219;
-	irA(65,9);
-	cout<<(char)219;
-	irA(65,10);
-	cout<<(char)219;
-	irA(65,11);
-	cout<<(char)219;
+	cout<<(char)178;
 	irA(65,12);
-	cout<<(char)219;
+	cout<<(char)178;
 	Sleep(50);
-	//linea 3
+	//crea la letra L
+	//linea 1
 	irA(66,4);
-	cout<<(char)178;
+	cout<<(char)219;
 	irA(66,5);
-	cout<<(char)178;
+	cout<<(char)219;
 	irA(66,6);
-	cout<<(char)178;
+	cout<<(char)219;
 	irA(66,7);
-	cout<<(char)178;
+	cout<<(char)219;
 	irA(66,8);
-	cout<<(char)178;
+	cout<<(char)219;
 	irA(66,9);
-	cout<<(char)178;
+	cout<<(char)219;
 	irA(66,10);
-	cout<<(char)178;
+	cout<<(char)219;
 	irA(66,11);
-	cout<<(char)178;
+	cout<<(char)219;
 	irA(66,12);
 	cout<<(char)219;
 	Sleep(50);
-	//linea 4
+	//linea2
+	irA(67,4);
+	cout<<(char)178;
+	irA(67,5);
+	cout<<(char)178;
+	irA(67,6);
+	cout<<(char)178;
+	irA(67,7);
+	cout<<(char)178;
+	irA(67,8);
+	cout<<(char)178;
+	irA(67,9);
+	cout<<(char)178;
+	irA(67,10);
+	cout<<(char)178;
+	irA(67,11);
+	cout<<(char)178;
 	irA(67,12);
-	cout<<(char)178;
-	//crea el número 8
-	//linea 1
-	irA(68,6);
-	cout<<(char)219;
-	irA(68,7);
-	cout<<(char)219;
-	irA(68,9);
-	cout<<(char)219;
-	irA(68,10);
-	cout<<(char)219;
-	Sleep(50);
-	//linea 2
-	irA(69,4);
-	cout<<(char)219;
-	irA(69,5);
-	cout<<(char)219;
-	irA(69,6);
-	cout<<(char)178;
-	irA(69,7);
-	cout<<(char)178;
-	irA(69,8);
-	cout<<(char)219;
-	irA(69,9);
-	cout<<(char)178;
-	irA(69,10);
-	cout<<(char)178;
-	irA(69,11);
-	cout<<(char)219;
-	irA(69,12);
 	cout<<(char)219;
 	Sleep(50);
 	//linea 3
-	irA(70,4);
-	cout<<(char)219;
-	irA(70,5);
-	cout<<(char)219;
-	irA(70,6);
-	cout<<(char)178;
-	irA(70,8);
-	cout<<(char)219;
-	irA(70,9);
-	cout<<(char)178;
-	irA(70,11);
-	cout<<(char)219;
-	irA(70,12);
+	irA(68,12);
 	cout<<(char)219;
 	Sleep(50);
 	//linea 4
+	irA(69,12);
+	cout<<(char)219;
+	Sleep(50);
+	//linea 5
+	irA(70,12);
+	cout<<(char)178;
+	Sleep(50);
+	//crea la letra I
+	//linea 1
 	irA(71,4);
-	cout<<(char)178;
+	cout<<(char)219;
 	irA(71,5);
-	cout<<(char)178;
+	cout<<(char)219;
 	irA(71,6);
 	cout<<(char)219;
 	irA(71,7);
 	cout<<(char)219;
 	irA(71,8);
-	cout<<(char)178;
+	cout<<(char)219;
 	irA(71,9);
 	cout<<(char)219;
 	irA(71,10);
 	cout<<(char)219;
 	irA(71,11);
-	cout<<(char)178;
+	cout<<(char)219;
 	irA(71,12);
-	cout<<(char)178;
+	cout<<(char)219;
 	Sleep(50);
-	//linea 5
+	//linea 2
+	irA(72,4);
+	cout<<(char)178;
+	irA(72,5);
+	cout<<(char)178;
 	irA(72,6);
 	cout<<(char)178;
 	irA(72,7);
 	cout<<(char)178;
+	irA(72,8);
+	cout<<(char)178;
 	irA(72,9);
 	cout<<(char)178;
 	irA(72,10);
+	cout<<(char)178;
+	irA(72,11);
+	cout<<(char)178;
+	irA(72,12);
+	cout<<(char)178;
+	Sleep(50);
+	//crea la letra T
+	//linea 1
+	irA(73,4);
+	cout<<(char)219;
+	irA(73,5);
+	cout<<(char)178;
+	Sleep(50);
+	//linea 2
+	irA(74,4);
+	cout<<(char)219;
+	irA(74,5);
+	cout<<(char)178;
+	Sleep(50);
+	//linea 3
+	irA(75,4);
+	cout<<(char)219;
+	irA(75,5);
+	cout<<(char)219;
+	irA(75,6);
+	cout<<(char)219;
+	irA(75,7);
+	cout<<(char)219;
+	irA(75,8);
+	cout<<(char)219;
+	irA(75,9);
+	cout<<(char)219;
+	irA(75,10);
+	cout<<(char)219;
+	irA(75,11);
+	cout<<(char)219;
+	irA(75,12);
+	cout<<(char)219;
+	Sleep(50);
+	//linea 4
+	irA(76,4);
+	cout<<(char)219;
+	irA(76,5);
+	cout<<(char)178;
+	irA(76,6);
+	cout<<(char)178;
+	irA(76,7);
+	cout<<(char)178;
+	irA(76,8);
+	cout<<(char)178;
+	irA(76,9);
+	cout<<(char)178;
+	irA(76,10);
+	cout<<(char)178;
+	irA(76,11);
+	cout<<(char)178;
+	irA(76,12);
+	cout<<(char)178;
+	Sleep(50);
+	//linea 5
+	irA(77,4);
+	cout<<(char)219;
+	irA(77,5);
+	cout<<(char)178;
+	Sleep(50);
+	//linea 6
+	irA(78,4);
+	cout<<(char)178;
+	irA(78,5);
+	cout<<(char)178;
+	Sleep(50);
+	//crea la letra O
+	//linea 1
+	irA(79,6);
+	cout<<(char)219;
+	irA(79,7);
+	cout<<(char)219;
+	irA(79,8);
+	cout<<(char)219;
+	irA(79,9);
+	cout<<(char)219;
+	irA(79,10);
+	cout<<(char)219;
+	irA(79,11);
+	cout<<(char)178;
+	Sleep(50);
+	//linea 2
+	irA(80,4);
+	cout<<(char)219;
+	irA(80,5);
+	cout<<(char)219;
+	irA(80,6);
+	cout<<(char)178;
+	irA(80,7);
+	cout<<(char)178;
+	irA(80,8);
+	cout<<(char)178;
+	irA(80,9);
+	cout<<(char)178;
+	irA(80,10);
+	cout<<(char)178;
+	irA(80,11);
+	cout<<(char)219;
+	irA(80,12);
+	cout<<(char)219;
+	Sleep(50);
+	//linea 3
+	irA(81,4);
+	cout<<(char)219;
+	irA(81,5);
+	cout<<(char)219;
+	irA(81,11);
+	cout<<(char)219;
+	irA(81,12);
+	cout<<(char)219;
+	Sleep(50);
+	//linea 4
+	irA(82,4);
+	cout<<(char)178;
+	irA(82,5);
+	cout<<(char)178;
+	irA(82,6);
+	cout<<(char)219;
+	irA(82,7);
+	cout<<(char)219;
+	irA(82,8);
+	cout<<(char)219;
+	irA(82,9);
+	cout<<(char)219;
+	irA(82,10);
+	cout<<(char)219;
+	irA(82,11);
+	cout<<(char)178;
+	irA(82,12);
+	cout<<(char)178;
+	Sleep(50);
+	//linea 5
+	irA(83,6);
+	cout<<(char)178;
+	irA(83,7);
+	cout<<(char)178;
+	irA(83,8);
+	cout<<(char)178;
+	irA(83,9);
+	cout<<(char)178;
+	irA(83,10);
+	cout<<(char)178;
+	irA(83,11);
+	cout<<(char)178;
+	Sleep(50);
+	//crea el número 1
+	//linea 1
+	irA(84,5);
+	cout<<(char)219;
+	irA(84,6);
+	cout<<(char)219;
+	irA(84,7);
+	cout<<(char)178;
+	irA(84,12);
+	cout<<(char)219;
+	Sleep(50);
+	//linea 2
+	irA(85,4);
+	cout<<(char)219;
+	irA(85,5);
+	cout<<(char)219;
+	irA(85,6);
+	cout<<(char)219;
+	irA(85,7);
+	cout<<(char)219;
+	irA(85,8);
+	cout<<(char)219;
+	irA(85,9);
+	cout<<(char)219;
+	irA(85,10);
+	cout<<(char)219;
+	irA(85,11);
+	cout<<(char)219;
+	irA(85,12);
+	cout<<(char)219;
+	Sleep(50);
+	//linea 3
+	irA(86,4);
+	cout<<(char)178;
+	irA(86,5);
+	cout<<(char)178;
+	irA(86,6);
+	cout<<(char)178;
+	irA(86,7);
+	cout<<(char)178;
+	irA(86,8);
+	cout<<(char)178;
+	irA(86,9);
+	cout<<(char)178;
+	irA(86,10);
+	cout<<(char)178;
+	irA(86,11);
+	cout<<(char)178;
+	irA(86,12);
+	cout<<(char)219;
+	Sleep(50);
+	//linea 4
+	irA(87,12);
+	cout<<(char)178;
+	//crea el número 8
+	//linea 1
+	irA(88,6);
+	cout<<(char)219;
+	irA(88,7);
+	cout<<(char)219;
+	irA(88,9);
+	cout<<(char)219;
+	irA(88,10);
+	cout<<(char)219;
+	Sleep(50);
+	//linea 2
+	irA(89,4);
+	cout<<(char)219;
+	irA(89,5);
+	cout<<(char)219;
+	irA(89,6);
+	cout<<(char)178;
+	irA(89,7);
+	cout<<(char)178;
+	irA(89,8);
+	cout<<(char)219;
+	irA(89,9);
+	cout<<(char)178;
+	irA(89,10);
+	cout<<(char)178;
+	irA(89,11);
+	cout<<(char)219;
+	irA(89,12);
+	cout<<(char)219;
+	Sleep(50);
+	//linea 3
+	irA(90,4);
+	cout<<(char)219;
+	irA(90,5);
+	cout<<(char)219;
+	irA(90,6);
+	cout<<(char)178;
+	irA(90,8);
+	cout<<(char)219;
+	irA(90,9);
+	cout<<(char)178;
+	irA(90,11);
+	cout<<(char)219;
+	irA(90,12);
+	cout<<(char)219;
+	Sleep(50);
+	//linea 4
+	irA(91,4);
+	cout<<(char)178;
+	irA(91,5);
+	cout<<(char)178;
+	irA(91,6);
+	cout<<(char)219;
+	irA(91,7);
+	cout<<(char)219;
+	irA(91,8);
+	cout<<(char)178;
+	irA(91,9);
+	cout<<(char)219;
+	irA(91,10);
+	cout<<(char)219;
+	irA(91,11);
+	cout<<(char)178;
+	irA(91,12);
+	cout<<(char)178;
+	Sleep(50);
+	//linea 5
+	irA(92,6);
+	cout<<(char)178;
+	irA(92,7);
+	cout<<(char)178;
+	irA(92,9);
+	cout<<(char)178;
+	irA(92,10);
 	cout<<(char)178;
 	Beep(1500,700);//emite un pitido
 	Sleep(50);
