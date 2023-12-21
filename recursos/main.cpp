@@ -10,7 +10,9 @@ void portada();
 void texto();
 
 int main(int argc, char** argv) {
+	system("color 1f");
 	portada();
+	system("color");
 	system("pause");
 	return 0;
 }
@@ -41,6 +43,8 @@ void portada(){
 }
 
 void texto(){
+	gotoxy(25,2);
+	cout<<"Este programa ha sido creado por:"<<endl;
 	//E
 	//linea 1
 	gotoxy(9,4);
@@ -1011,5 +1015,7 @@ void texto(){
 	cout<<(char)178;
 	gotoxy(72,10);
 	cout<<(char)178;
+	Beep(1500,700);
 	Sleep(50);
+	gotoxy(0,15);
 }
