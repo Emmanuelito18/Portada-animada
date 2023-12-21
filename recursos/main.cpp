@@ -7,7 +7,7 @@ void gotoxy(int,int );
 void setColor(int);
 void ocultarCursor();
 void portada();
-void texto();
+void animacion();
 
 int main(int argc, char** argv) {
 	system("color 1f");
@@ -37,12 +37,11 @@ void ocultarCursor(){
 void portada(){
 	ocultarCursor();
 	system("cls");
-	//setColor(31);
-	texto();
-	
+	animacion();
+	gotoxy(0,15);
 }
 
-void texto(){
+void animacion(){//cada parte de la animacion se hace imprimiendo partes de las letras mediante la función gotoxy
 	gotoxy(25,2);
 	cout<<"Este programa ha sido creado por:"<<endl;
 	//E
@@ -1017,5 +1016,4 @@ void texto(){
 	cout<<(char)178;
 	Beep(1500,700);
 	Sleep(50);
-	gotoxy(0,15);
 }
