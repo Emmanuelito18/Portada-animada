@@ -745,7 +745,11 @@ void texto(){
 	cout<<(char)178;
 	Sleep(50);
 	//linea 2
-	
+	gotoxy(54,4);
+	cout<<(char)219;
+	gotoxy(54,4);
+	cout<<(char)178;
+	Sleep(50);
 	//linea 3
 	
 	//linea 4
