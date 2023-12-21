@@ -738,6 +738,19 @@ void texto(){
 	cout<<(char)178;
 	Sleep(50);
 	//T
+	//linea 1
+	gotoxy(53,4);
+	cout<<(char)219;
+	gotoxy(53,5);
+	cout<<(char)178;
+	Sleep(50);
+	//linea 2
+	
+	//linea 3
+	
+	//linea 4
+	
+	//linea 5
 	
 	//O
 	
