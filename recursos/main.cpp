@@ -697,7 +697,46 @@ void texto(){
 	cout<<(char)178;
 	Sleep(50);
 	//I
-	
+	//linea 1
+	gotoxy(51,4);
+	cout<<(char)219;
+	gotoxy(51,5);
+	cout<<(char)219;
+	gotoxy(51,6);
+	cout<<(char)219;
+	gotoxy(51,7);
+	cout<<(char)219;
+	gotoxy(51,8);
+	cout<<(char)219;
+	gotoxy(51,9);
+	cout<<(char)219;
+	gotoxy(51,10);
+	cout<<(char)219;
+	gotoxy(51,11);
+	cout<<(char)219;
+	gotoxy(51,12);
+	cout<<(char)219;
+	Sleep(50);
+	//linea 2
+	gotoxy(52,4);
+	cout<<(char)178;
+	gotoxy(52,5);
+	cout<<(char)178;
+	gotoxy(52,6);
+	cout<<(char)178;
+	gotoxy(52,7);
+	cout<<(char)178;
+	gotoxy(52,8);
+	cout<<(char)178;
+	gotoxy(52,9);
+	cout<<(char)178;
+	gotoxy(52,10);
+	cout<<(char)178;
+	gotoxy(52,11);
+	cout<<(char)178;
+	gotoxy(52,12);
+	cout<<(char)178;
+	Sleep(50);
 	//T
 	
 	//O
