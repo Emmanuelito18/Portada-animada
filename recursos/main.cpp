@@ -66,7 +66,7 @@ void texto(){
 	gotoxy(10,4);
 	cout<<(char)219;
 	gotoxy(10,5);
-	cout<<(char)178;//sombra
+	cout<<(char)178;
 	gotoxy(10,6);
 	cout<<(char)178;
 	gotoxy(10,7);
@@ -571,7 +571,78 @@ void texto(){
 	cout<<(char)178;
 	Sleep(50);
 	//E
-	
+	//linea 1
+	gotoxy(41,4);
+	cout<<(char)219;
+	gotoxy(41,5);
+	cout<<(char)219;
+	gotoxy(41,6);
+	cout<<(char)219;
+	gotoxy(41,7);
+	cout<<(char)219;
+	gotoxy(41,8);
+	cout<<(char)219;
+	gotoxy(41,9);
+	cout<<(char)219;
+	gotoxy(41,10);
+	cout<<(char)219;
+	gotoxy(41,11);
+	cout<<(char)219;
+	gotoxy(41,12);
+	cout<<(char)219;
+	Sleep(50);
+	//linea 2
+	gotoxy(42,4);
+	cout<<(char)219;
+	gotoxy(42,5);
+	cout<<(char)178;
+	gotoxy(42,6);
+	cout<<(char)178;
+	gotoxy(42,7);
+	cout<<(char)178;
+	gotoxy(42,8);
+	cout<<(char)219;
+	gotoxy(42,9);
+	cout<<(char)178;
+	gotoxy(42,10);
+	cout<<(char)178;
+	gotoxy(42,11);
+	cout<<(char)178;
+	gotoxy(42,12);
+	cout<<(char)219;
+	Sleep(50);
+	//linea 3
+	gotoxy(43,4);
+	cout<<(char)219;
+	gotoxy(43,5);
+	cout<<(char)178;
+	gotoxy(43,8);
+	cout<<(char)219;
+	gotoxy(43,9);
+	cout<<(char)178;
+	gotoxy(43,12);
+	cout<<(char)219;
+	Sleep(50);
+	//linea 4
+	gotoxy(44,4);
+	cout<<(char)219;
+	gotoxy(44,5);
+	cout<<(char)178;
+	gotoxy(44,8);
+	cout<<(char)178;
+	gotoxy(44,9);
+	cout<<(char)178;
+	gotoxy(44,12);
+	cout<<(char)219;
+	Sleep(50);
+	//linea 5
+	gotoxy(45,4);
+	cout<<(char)178;
+	gotoxy(45,5);
+	cout<<(char)178;
+	gotoxy(45,12);
+	cout<<(char)178;
+	Sleep(50);
 	//L
 	
 	//I
