@@ -11,7 +11,7 @@ ResourceIncludes=
 MakeIncludes=
 Compiler=
 CppCompiler=
-Linker=
+Linker=-lwinmm_@@_
 IsCpp=1
 Icon=Portada animada.ico
 ExeOutput=..\..\Animacion emmanuelito18
@@ -28,7 +28,7 @@ Folders=
 IncludeVersionInfo=1
 SupportXPThemes=0
 CompilerSet=4
-CompilerSettings=00000001a0000000001000000
+CompilerSettings=00000001c0000000001000000
 UnitCount=2
 
 [VersionInfo]
