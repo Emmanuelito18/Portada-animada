@@ -1017,5 +1017,7 @@ void animacion(){//cada parte de la animacion se hace imprimiendo partes de las 
 	irA(92,10);
 	cout<<(char)178;
 	PlaySound("recursos\\moneda.wav",NULL,SND_FILENAME);
+	/*Reproduce un sonido en formato wav
+	si no encuentra el sonido reproduce el sonido de error del sistema*/
 	Sleep(50);
 }
