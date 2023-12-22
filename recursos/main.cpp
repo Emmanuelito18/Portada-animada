@@ -12,9 +12,11 @@ void animacion();
 int main(int argc, char** argv) {
 	system("color 1f");//cambia el color de la consola a fondo azul y texto blanco
 	portada();//llama a la función portada
-	system("color");//pone el color de la consola al establecido por defecto configurado
 	system("pause");
+	system("cls");
+	system("color 0f");//pone el color de la consola al establecido por defecto configurado
 	mostrarCursor();
+	//Aquí se pondrá el resto del programa
 	return 0;
 }
 
@@ -40,7 +42,21 @@ void mostrarCursor(){
 void portada(){
 	ocultarCursor();//llama a la función ocultaCursor
 	animacion();//llama a la función para comenzar la animación
-	irA(0,15);//cambia la posición del cursor para mostrar texto final de la portada
+	irA(50,15);//cambia la posición del cursor para mostrar texto final de la portada
+	cout<<"INSTITUTO POLITÉCNICO NACIONAL";
+	irA(35,16);
+	cout<<"Escuela Superior de Ingieniería Mecánica y electrónica";
+	irA(55,17);
+	cout<<"Unidad Culhuacán";
+	irA(45,18);
+	cout<<"Nombre: Mejía Castañeda Bryan Emmanuel";
+	irA(53,19);
+	cout<<"Materia: Programación";
+	irA(55,20);
+	cout<<"Grupo: grupo";
+	irA(40,21);
+	cout<<"Profesor: Osornio Soto Roberto";
+	irA(40,24);//regresa el cursor a suposición original
 }
 
 void animacion(){//cada parte de la animacion se hace imprimiendo partes de las letras mediante la función irA
