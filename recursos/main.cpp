@@ -41,7 +41,6 @@ void portada(){
 	ocultarCursor();//llama a la función ocultaCursor
 	animacion();//llama a la función para comenzar la animación
 	irA(0,15);//cambia la posición del cursor para mostrar texto final de la portada
-	
 }
 
 void animacion(){//cada parte de la animacion se hace imprimiendo partes de las letras mediante la función irA
@@ -1017,6 +1016,6 @@ void animacion(){//cada parte de la animacion se hace imprimiendo partes de las 
 	cout<<(char)178;
 	irA(92,10);
 	cout<<(char)178;
-	Beep(1500,700);//emite un pitido
+	PlaySound("recursos\\moneda.wav",NULL,SND_FILENAME);
 	Sleep(50);
 }
