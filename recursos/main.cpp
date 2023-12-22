@@ -12,8 +12,9 @@ void animacion();
 int main(int argc, char** argv) {
 	system("color 1f");//cambia el color de la consola a fondo azul y texto blanco
 	portada();//llama a la función portada
-	system("color");//pone el color de la consola al establecido por defecto configurado
 	system("pause");
+	system("color 0f");//pone el color de la consola al establecido por defecto configurado
+	//Aquí se pondrá el resto del programa
 	mostrarCursor();
 	return 0;
 }
