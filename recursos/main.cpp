@@ -456,7 +456,7 @@ void animacion(){//cada parte de la animacion se hace imprimiendo partes de las 
 	cout<<(char)219;
 	Sleep(50);
 	//linea 4
-	irA(34,4);
+	irA(54,4);
 	cout<<(char)219;
 	irA(54,5);
 	cout<<(char)219;
