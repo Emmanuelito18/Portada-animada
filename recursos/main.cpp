@@ -20,7 +20,7 @@ int main(int argc, char** argv) {
 	return 0;
 }
 
-void irA(int x,int y){
+void irA(int x,int y){//El CMD tiene 29 filas y 119 columnas
 	COORD coord;
 	coord.X=x;
 	coord.Y=y;
