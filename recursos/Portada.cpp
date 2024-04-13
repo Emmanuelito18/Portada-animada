@@ -1,6 +1,7 @@
 #include "Portada.h"
 #include <iostream>
 #include <windows.h>//para las funciones sleep y coord
+#include <locale.>
 
 using namespace std;
 
@@ -44,6 +45,7 @@ void Portada::mostrarCursor(){
 void Portada::portada(){
 	ocultarCursor();//llama a la función ocultaCursor
 	animacion();//llama a la función para comenzar la animación
+	setlocale(LC_ALL,"spanish");//se cambia la lozalizacion de la consola a español
 	irA(50,15);//cambia la posición del cursor para mostrar texto final de la portada
 	cout<<"INSTITUTO POLITÉCNICO NACIONAL";
 	irA(35,16);
@@ -59,6 +61,7 @@ void Portada::portada(){
 	irA(40,21);
 	cout<<"Profesor: Osornio Soto Roberto";
 	irA(40,24);//regresa el cursor a suposición original
+	setlocale(LC_ALL,"C");//Se cambia la localización de la consola a la original
 }
 
 void Portada::animacion(){//cada parte de la animacion se hace imprimiendo partes de las letras mediante la función irA
