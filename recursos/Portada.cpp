@@ -34,7 +34,9 @@ void Portada::mostrarCursor(){
 void Portada::portada(){
 	ocultarCursor();//llama a la función ocultaCursor
 	animacion();//llama a la función para comenzar la animación
-	irA(0,15);//cambia la posición del cursor para mostrar texto final de la portada
+	irA(35,15);
+	cout<<"Recuerda que si puedes imaginarlo, puedes programarlo"<<endl;
+	irA(0,17);//cambia la posición del cursor para mostrar texto final de la portada
 }
 
 void Portada::animacion(){//cada parte de la animacion se hace imprimiendo partes de las letras mediante la función irA

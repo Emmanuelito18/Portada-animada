@@ -7,13 +7,13 @@ class Portada{
 		Portada();
 		//Destructor
 		~Portada();
+		void mostrarPortada();
 	protected:
 		void irA(int,int);
 		void ocultarCursor();
 		void mostrarCursor();
 		void portada();
 		void animacion();
-		void mostrarPortada();
 };
 
 #endif
