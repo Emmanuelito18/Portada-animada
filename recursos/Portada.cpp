@@ -2,6 +2,7 @@
 #include <iostream>
 #include <windows.h>//para las funciones sleep y coord
 #include <locale.>
+#include <string>
 
 using namespace std;
 
@@ -21,6 +22,13 @@ void Portada::mostrarPortada(){
 	system("color 0f");//pone el color de la consola al establecido por defecto configurado
 	mostrarCursor();
 	//Aquí se pondrá el resto del programa
+}
+
+//establecemos valores a los atributos 
+void Portada::setVariables(string _materia,string _grupo,string _profesor){
+	materia=_materia;
+	grupo=_grupo;
+	profesor=_profesor;
 }
 
 void Portada::irA(int x,int y){
@@ -55,12 +63,14 @@ void Portada::portada(){
 	irA(45,18);
 	cout<<"Nombre: Mejía Castañeda Bryan Emmanuel";
 	irA(53,19);
-	cout<<"Materia: Programación";
+	cout<<"Materia: "<<materia;
 	irA(55,20);
-	cout<<"Grupo: grupo";
+	cout<<"Grupo: "<<grupo;
 	irA(40,21);
-	cout<<"Profesor: Osornio Soto Roberto";
-	irA(40,24);//regresa el cursor a suposición original
+	cout<<"Profesor: "<<profesor;
+	irA(35,23);
+	cout<<"Recuerda que si puedes imaginarlo, puedes programarlo"<<endl;
+	irA(40,25);//regresa el cursor a suposición original
 	setlocale(LC_ALL,"C");//Se cambia la localización de la consola a la original
 }
 
