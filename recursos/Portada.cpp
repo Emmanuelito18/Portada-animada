@@ -33,6 +33,8 @@ void Portada::mostrarCursor(){
 
 void Portada::portada(){
 	ocultarCursor();//llama a la función ocultaCursor
+	irA(45,2);
+	cout<<"Este programa ha sido creado por:"<<endl;
 	animacion();//llama a la función para comenzar la animación
 	irA(35,15);
 	cout<<"Recuerda que si puedes imaginarlo, puedes programarlo"<<endl;
@@ -40,8 +42,6 @@ void Portada::portada(){
 }
 
 void Portada::animacion(){//cada parte de la animacion se hace imprimiendo partes de las letras mediante la función irA
-	irA(45,2);
-	cout<<"Este programa ha sido creado por:"<<endl;
 	//crea la letra E
 	//linea 1
 	irA(29,4);
