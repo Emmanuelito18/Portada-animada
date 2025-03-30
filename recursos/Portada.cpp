@@ -64,7 +64,7 @@ void Portada::portada(){
 	irA(50,15);//cambia la posición del cursor para mostrar texto final de la portada
 	cout<<"INSTITUTO POLITÉCNICO NACIONAL";
 	irA(35,16);
-	cout<<"Escuela Superior de Ingieniería Mecánica y electrónica";
+	cout<<"Escuela Superior de Ingieniería Mecánica y Electrónica";
 	irA(55,17);
 	cout<<"Unidad Culhuacán";
 	irA(45,18);
