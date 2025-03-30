@@ -13,7 +13,7 @@ class Portada{
 		void ocultarCursor();
 		void mostrarCursor();
 		void portada();
-		void animacion();
+		virtual void animacion();//Método virtual
 };
 
 #endif

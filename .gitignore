@@ -1,0 +1,7 @@
+*.exe
+*.o
+*.rc
+*.res
+*.layout
+/recursos/Makefile.win
+/recursos/Portada_animada_private.h
